@@ -24,6 +24,8 @@ Username/password, or OAuth credentials, are needed to access the bitbucket api 
 At this time it is not used to do the clone/update.
 Clone/update requires that your ssh keys have been uploaded to bitbucket.
 
+Note, with two-factor autentication enabled on your account, you will not be able to use username or password credentials.
+
 You can backup a team's repositories instead of your own by supplying the optional `-t` parameter.
 
 ## OAuth authentication
